@@ -18,3 +18,14 @@ int main()
 
     return 0;
 }
+
+
+int main(void) 
+{
+	int n = -3;
+	if(n < 0){
+	    int absn = n*-1;
+	    printf("The absolute value of %d is %d \n",n,absn);
+	    printf("The value of n is %d",n);
+	}
+	return 0;
