@@ -29,6 +29,7 @@ int main(void)
 	    printf("The value of n is %d",n);
 	}
 	return 0;
+}
 
 
 
