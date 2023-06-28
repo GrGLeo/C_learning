@@ -29,3 +29,19 @@ int main(void)
 	    printf("The value of n is %d",n);
 	}
 	return 0;
+
+
+
+int main()
+{
+	int days;
+	float pi;
+	
+	puts("How many days in the week:");
+	scanf("%d",&days);
+	puts("The value of Pi to two points:");
+	scanf("%f",&pi);
+	printf("There are %d days in the week.\n",days);
+	printf("Pi value is %.2f\n",pi);
+	return 0;
+}
