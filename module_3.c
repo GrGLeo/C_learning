@@ -21,7 +21,7 @@ int main()
 	return 0;
 }
 
-int main()
+int forms()
 {
 	int number;
 	scanf("%d",&number);
@@ -43,5 +43,28 @@ int main()
 		printf("*\n");
 	}
 	
+	return 0;
+}
+
+int leap_year()
+{
+	int year;
+	printf("Enter the year:");
+	scanf("%d",&year);
+	
+	if(year%4==0){
+	    if(year%100==0 && year%400==0){
+	        printf("%d is leap year",year);
+	    }
+	    else if(year%100==0 && year%400!=0){
+	        printf("%d is not a leap year",year);
+	    }
+	    else{
+	        printf("%d is a leap year",year);
+	    }
+	}
+	else{
+	    printf("%d is not a leap year",year);
+	}
 	return 0;
 }
