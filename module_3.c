@@ -68,3 +68,16 @@ int leap_year()
 	}
 	return 0;
 }
+
+int main()
+{
+    int i,j = 3;
+    
+    i = --j;
+    printf("%d %d \n",i,j);
+    j+= !(i % 2);
+    printf("%d",!(i %2));
+    
+    printf("%d",j);
+    return 0;
+}
