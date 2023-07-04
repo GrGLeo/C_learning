@@ -19,3 +19,15 @@ int main()
 	}
 	return 0;
 }
+
+int main()
+{   
+    char letter[26];
+    for(int i=97;i<122;i++){
+        letter[i-97] = i;
+        printf("%c",letter[i-97]);
+    }
+    printf("\n%c%c%c%c%c",letter[6],letter[17],letter[4],letter[0],letter[19]);
+	return 0;
+
+}
