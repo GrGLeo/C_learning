@@ -56,3 +56,17 @@ int main()
 
 	return 0;
 }
+
+int main()
+{
+	char ip[16];
+	char num1[4],num2[4],num3[4],num4[4];
+	scanf("%3s",num1);
+	scanf("%3s",num2);
+	scanf("%3s",num3);
+	scanf("%3s",num4);
+	
+	sprintf(ip,"%s.%s.%s.%s",num1,num2,num3,num4);
+	printf("%s",ip);
+	return 0;
+}
